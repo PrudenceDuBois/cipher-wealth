@@ -31,7 +31,8 @@ contract CipherWealth is SepoliaConfig {
         // Add the encrypted amount to the user's balance
         balances[msg.sender] = FHE.add(balances[msg.sender], encryptedAmount);
 
-        // Allow the user to access the updated balance
+        // Allow the contract and user to access the updated balance
+        FHE.allowThis(balances[msg.sender]);
         FHE.allow(balances[msg.sender], msg.sender);
 
         emit Deposit(msg.sender);
