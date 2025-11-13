@@ -105,7 +105,7 @@ export const CipherWealthPanel = () => {
 
         <div className="space-y-2 mb-4">
           <p className="text-4xl font-bold text-foreground">
-            {cipherWealth.isDecrypted ? cipherWealth.balance || "0" : "••••••••"}
+            {cipherWealth.isDecrypted ? cipherWealth.clear?.toString() || "0" : "••••••••"}
           </p>
           <p className="text-sm text-muted-foreground">Encrypted Balance Handle:</p>
           <p className="font-mono text-xs break-all text-muted-foreground">
