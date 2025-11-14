@@ -91,6 +91,7 @@ contract CipherWealth is SepoliaConfig {
         balances[to] = FHE.add(balances[to], encryptedAmount);
 
         // Allow access to updated balances
+        FHE.allowThis(balances[msg.sender]);
         FHE.allow(balances[msg.sender], msg.sender);
         FHE.allowThis(balances[to]);
         FHE.allow(balances[to], to);
