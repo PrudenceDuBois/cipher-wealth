@@ -123,6 +123,7 @@ export function useCipherWealth({
       setMessage("Balance handle retrieved successfully");
     } catch (error: any) {
       console.error("Failed to get balance:", error);
+      setMessage(`Error: ${error.message || "Failed to get balance"}`);
     } finally {
       setIsRefreshing(false);
     }
