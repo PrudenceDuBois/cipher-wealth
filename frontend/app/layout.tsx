@@ -24,7 +24,7 @@ export default async function RootLayout({
       <body className="bg-background text-foreground antialiased">
         <main className="min-h-screen">
           <Providers>
-            <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
+            <header className="border-b border-border bg-card/50 backdrop-blur-md sticky top-0 z-50 shadow-sm">
               <div className="container mx-auto px-4 py-4">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
