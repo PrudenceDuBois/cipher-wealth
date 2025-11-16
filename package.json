@@ -1,6 +1,6 @@
 {
   "name": "cipher-wealth",
-  "description": "Hardhat-based template for developing FHEVM Solidity smart contracts",
+  "description": "Privacy-preserving wealth management system using FHEVM for encrypted balances",
   "version": "0.1.0",
   "engines": {
     "node": ">=20",
