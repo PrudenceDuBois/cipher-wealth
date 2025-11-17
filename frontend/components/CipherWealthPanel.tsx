@@ -170,7 +170,7 @@ export const CipherWealthPanel = () => {
               ) : (
                 <>
                   <ArrowDownToLine className="w-4 h-4" />
-                  Deposit {depositAmount}
+                  Deposit
                 </>
               )}
             </button>
@@ -208,7 +208,7 @@ export const CipherWealthPanel = () => {
               ) : (
                 <>
                   <ArrowUpFromLine className="w-4 h-4" />
-                  Withdraw {withdrawAmount}
+                  Withdraw
                 </>
               )}
             </button>
