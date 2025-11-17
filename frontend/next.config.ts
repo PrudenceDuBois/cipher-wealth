@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   headers() {
-    // Required by FHEVM 
+    // Required by FHEVM for SharedArrayBuffer support
     return Promise.resolve([
       {
         source: '/',
