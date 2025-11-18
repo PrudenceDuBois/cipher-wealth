@@ -7,7 +7,8 @@ import {SepoliaConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 /// @title CipherWealth - Encrypted Wealth Management Contract
 /// @author cipher-wealth
 /// @notice A privacy-preserving wealth management system using FHEVM for encrypted balances
-/// @dev This contract demonstrates a complete encrypted data flow: deposit, withdraw, and balance viewing
+/// @dev This contract demonstrates a complete encrypted data flow: deposit, withdraw, transfer, and balance viewing
+/// @dev All balance operations use fully homomorphic encryption to maintain user privacy
 contract CipherWealth is SepoliaConfig {
     /// @notice Mapping of user addresses to their encrypted balances
     mapping(address => euint64) private balances;
