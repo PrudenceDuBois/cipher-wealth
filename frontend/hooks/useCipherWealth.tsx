@@ -103,7 +103,13 @@ export function useCipherWealth({
   );
 
   const canOperate = Boolean(
-    instance && cipherWealth.address && eip1193Provider && ethersSigner && sameChain.current(chainId) && sameSigner.current(ethersSigner) && !isOperating,
+    instance && 
+    cipherWealth.address && 
+    eip1193Provider && 
+    ethersSigner && 
+    sameChain.current(chainId) && 
+    sameSigner.current(ethersSigner) && 
+    !isOperating,
   );
 
   // Refresh balance handle
