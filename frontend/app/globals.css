@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Design system based on refer project - dark theme with cyan accent */
+/* Cipher Wealth Design System - Dark theme with cyan accent for privacy-focused UI */
 
 @layer base {
   :root {
