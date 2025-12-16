@@ -4,7 +4,7 @@ A privacy-preserving wealth management system built with **Fully Homomorphic Enc
 
 ## 🎥 Demo
 
-**Live Demo**: [https://cipher-wealth.vercel.app/](https://cipher-wealth.vercel.app/)
+**Live Demo**: [https://cipher-wealth.vercel.app/](https://cipher-wealth-eight.vercel.app/)
 
 **Video Demo**: [demo.mp4](./demo.mp4)
 
